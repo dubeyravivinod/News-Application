@@ -1,0 +1,24 @@
+# Top Headlines --> Based on Country
+GET https://newsapi.org/v2/top-headlines?country=us&apiKey=3b442bbf11ac468eb8017639814d58e8
+
+# Top Headlines --> By News Channels
+GET https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=3b442bbf11ac468eb8017639814d58e8
+
+# Top Business Headlines --> Based on country and category
+GET https://newsapi.org/v2/top-headlines?country=de&category=sports&apiKey=3b442bbf11ac468eb8017639814d58e8
+
+# Top Politicians Headlines --> Based on Politicians Name
+GET https://newsapi.org/v2/top-headlines?q=modi&apiKey=3b442bbf11ac468eb8017639814d58e8
+
+# All sources
+GET https://newsapi.org/v2/top-headlines/sources?apiKey=3b442bbf11ac468eb8017639814d58e8
+
+# All Business sources News
+GET https://newsapi.org/v2/top-headlines/sources?category=businessapiKey=3b442bbf11ac468eb8017639814d58e8
+
+# All resources --> Based on Country
+GET https://newsapi.org/v2/top-headlines/sources?country=usapiKey=3b442bbf11ac468eb8017639814d58e8
+
+# All Articals --> Based on Search
+GET https://newsapi.org/v2/everything?q=bitcoin&apiKey=3b442bbf11ac468eb8017639814d58e8
+
